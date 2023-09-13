@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/tab_home_navigation"
+    app:startDestination="@id/homeTabFragment">
+
+    <fragment
+        android:id="@+id/homeTabFragment"
+        android:name="com.example.baseproject.ui.home.hometab.HomeTabFragment"
+        android:label="HomeTabFragment" >
+        <action
+            android:id="@+id/action_homeTabFragment_to_playlistFragment"
+            app:destination="@id/playlistFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/playlistFragment"
+        android:name="com.example.baseproject.ui.playlist.PlaylistFragment"
+        android:label="PlaylistFragment" >
+        <action
+            android:id="@+id/action_playlistFragment_to_playFragmentDialog3"
+            app:destination="@id/playFragmentDialog" />
+    </fragment>
+    <dialog
+        android:id="@+id/playFragmentDialog"
+        android:name="com.example.baseproject.ui.play.PlayFragmentDialog"
+        android:label="PlayFragmentDialog" />
+</navigation>

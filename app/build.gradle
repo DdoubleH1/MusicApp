@@ -1,0 +1,146 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'dagger.hilt.android.plugin'
+    id 'kotlin-kapt'
+    id("com.google.gms.google-services")
+}
+
+//java {
+//    toolchain {
+//        languageVersion.set(JavaLanguageVersion.of(15))
+//    }
+//}
+
+android {
+    compileSdk versions.compileSdk
+    defaultConfig {
+        resConfigs("en", "vi")
+        applicationId "com.project.demo"
+        minSdk versions.minSdk
+        targetSdk versions.targetSdk
+        versionCode versions.versionCode
+        versionName versions.versionName
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = ["room.schemaLocation": "$projectDir/schemas".toString()]
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility versions.java
+        targetCompatibility versions.java
+    }
+    kotlinOptions {
+        jvmTarget = versions.java.toString()
+    }
+
+    buildFeatures {
+        dataBinding = true
+    }
+    namespace 'com.example.baseproject'
+}
+
+dependencies {
+
+    //firebase
+    implementation(platform("com.google.firebase:firebase-bom:32.2.2"))
+    implementation("com.google.firebase:firebase-analytics-ktx")
+    implementation("com.google.firebase:firebase-database-ktx")
+    implementation 'com.google.firebase:firebase-auth-ktx:22.1.1'
+    implementation 'com.google.firebase:firebase-common-ktx:20.3.3'
+    implementation("com.google.android.gms:play-services-auth:20.7.0")
+    implementation("com.google.firebase:firebase-storage-ktx")
+
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation project(':libraries:core')
+    implementation project(':features:Demo')
+
+    implementation 'androidx.work:work-runtime-ktx:2.8.1'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+    //appcompat
+    implementation libraries.appcompat
+    implementation libraries.fragment
+
+    implementation libraries.hilt
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+
+
+    kapt libraries.hiltSupport
+    //implementation libraries.hiltViewModel
+    //kapt libraries.hiltCompiler
+
+    //kotlin
+    implementation libraries.kotlin
+
+    //view
+    implementation libraries.material
+    implementation libraries.constraintlayout
+
+    //navigation
+    implementation libraries.navigation
+    implementation libraries.navigationUi
+
+    //network
+    implementation libraries.retrofit
+    implementation libraries.gson
+    implementation libraries.interceptor
+
+    //logger
+    implementation libraries.timber
+
+    implementation libraries.dataStore
+
+//    //ViewModel
+    implementation libraries.viewmodel
+//    implementation libraries.lifecycleExt
+    kapt libraries.liveData
+
+    // Loading Image
+    implementation libraries.glide
+    kapt libraries.glideCompiler
+
+    //noinspection GradleDependency
+    implementation "androidx.core:core-ktx:1.6.0"
+//    debugImplementation libraries.leak
+
+
+
+    //Room
+    implementation("androidx.room:room-ktx:2.5.2")
+    kapt("androidx.room:room-compiler:2.5.2")
+
+    implementation 'com.android.support:recyclerview-v7:28.0.0'
+    implementation 'com.android.support:design:28.0.0'
+    implementation 'com.github.bumptech.glide:glide:4.15.1'
+    implementation 'com.j256.ormlite:ormlite-android:4.48'
+
+    //palette
+    implementation 'androidx.palette:palette-ktx:1.0.0'
+
+    //image picker
+    implementation 'com.github.dhaval2404:imagepicker:2.1'
+
+    //retrofit
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+
+    // GSON
+
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+
+    // coroutine
+
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4'
+    // picaso
+    implementation 'com.squareup.picasso:picasso:2.8'
+
+}

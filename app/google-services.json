@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "288645097968",
+    "firebase_url": "https://music-app-rk-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "music-app-rk",
+    "storage_bucket": "music-app-rk.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:288645097968:android:c44d2a367b8118ac22d535",
+        "android_client_info": {
+          "package_name": "com.project.demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "288645097968-cp1tf283m6kor25anuap6k3skrrb2fnh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiumBBjk14syLVUkAzfpZ_zOXVwdszKp4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "288645097968-cp1tf283m6kor25anuap6k3skrrb2fnh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

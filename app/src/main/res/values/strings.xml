@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="appname">BaseProject</string>
+    <string name="home">Home</string>
+    <string name="hello">Hello</string>
+    <string name="favorite">Favorite</string>
+    <string name="splash">Splash</string>
+    <string name="next">Next</string>
+    <string name="password">Password</string>
+    <string name="your_username">Your username</string>
+    <string name="what_s_your_email">What\'s your email?</string>
+    <string name="sign_up">Sign up</string>
+    <string name="signIn">Sign In</string>
+    <string name="millions_of_songs">Millions of songs\nFree on Spotify</string>
+    <string name="sign_up_free">Sign up free</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="log_in">Log in</string>
+    <string name="search">Search</string>
+    <string name="artists_songs_or_podcasts">Artists, songs, or podcasts</string>
+    <string name="category">Category</string>
+    <string name="library">Library</string>
+    <string name="library_music">Library</string>
+    <string name="add_artist">Add artist</string>
+    <string name="add_playlist">Add playlist</string>
+    <string name="tune_in_to_top_tracks_from_imagine_dragons_alan_walker_and_many_more">Tune in to Top Tracks from Imagine Dragons, Alan Walker and many more</string>
+    <string name="song_title">Song Title</string>
+    <string name="artist">Artist</string>
+    <string name="channel_name">Music Channel</string>
+    <string name="name_your_playlist">Name your playlist</string>
+    <string name="my_playlist">My Playlist</string>
+    <string name="create">Create</string>
+    <string name="add_to_this_playlist">Add to this playlist</string>
+    <string name="string_sign_in_successfully">Sign up successfully</string>
+    <string name="email_already_exists">Email already exists</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="sign_up_failed">Sign up failed</string>
+    <string name="sign_in">Sign In</string>
+    <string name="do_not_leave_this_field_blank">Do not leave this field blank</string>
+    <string name="invalid_email_address">Invalid email address</string>
+    <string name="password_must_be_at_least_8_characters">Password must be at least 8 characters</string>
+    <string name="login_successfully">Login Successfully</string>
+    <string name="login_failed">Login failed</string>
+    <string name="email_is_not_registered">Email is not registered</string>
+    <string name="password_is_incorrect">Password is incorrect</string>
+    <string name="email_or_password_is_empty">Email or password is empty</string>
+    <string name="profile">Profile</string>
+    <string name="done">done</string>
+    <string name="edit">Edit</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cancel">Cancel</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="save">Save</string>
+    <string name="EditProfileDescription">This could be your first name or a nickname.\nIt\'s how you\'ll appear on Spotify.</string>
+    <string name="do_not_let_username_empty">Do not let username empty</string>
+    <string name="none">none</string>
+    <string name="edit_playlist">Edit playlist</string>
+    <string name="log_out">Log out</string>
+    <string name="all_your_songs">All your songs</string>
+    <string name="current_time">0:00</string>
+
+
+</resources>
