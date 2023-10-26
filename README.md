@@ -45,41 +45,42 @@ Techstack: Android/Kotlin, Firebase, Room database, SQL, Android service, LiveDa
 
 
 ### Playlist screen
-- Contain songs of playlists, click to chose songs for listening.
+- Contain songs of playlists, click to chose songs for listening, searching for desired song.
 <p>
-<img src="https://i.ibb.co/VmZt3pW/image.png" alt="" border="0" width="280" >
-<img src="https://i.ibb.co/hHGC28f/image.png" alt="" border="0" width="280" >
-<img src="https://i.ibb.co/g4hvvPh/image.png" alt="" border="0" width="300" >
+<img src="https://i.ibb.co/VmZt3pW/image.png" alt="" border="0" width="250" >
+<img src="https://i.ibb.co/hHGC28f/image.png" alt="" border="0" width="250" >
+<img src="https://i.ibb.co/g4hvvPh/image.png" alt="" border="0" width="250" >
+<img src="https://i.ibb.co/rdrYxWF/image.png.co/g4hvvPh/image.png" alt="" border="0" width="250" >
 </p>
 
 ### Add/Edit Playlist screen
 - Add/remove songs from chosen playlist, change playlist's name, image.
 <p>
-<img src="https://i.ibb.co/zbWGZdV/image.png" alt="" border="0" width="280" >
-<img src="https://i.ibb.co/VTqYf2Q/image.png" alt="" border="0" width="280" >
-<img src="https://i.ibb.co/714b7Gm/image.png" alt="" border="0" width="300" >
+<img src="https://i.ibb.co/zbWGZdV/image.png" alt="" border="0" width="250" >
+<img src="https://i.ibb.co/VTqYf2Q/image.png" alt="" border="0" width="250" >
+<img src="https://i.ibb.co/714b7Gm/image.png" alt="" border="0" width="270" >
 </p>
 
 ### Play screen
 - User can play, pause, switch, repeat, shuffle songs, adjust timer, add song to user's playlists
 <p>
-<img src="https://i.ibb.co/pn7Y7ks/image.png" alt="" border="0" width="280" >
-<img src="https://i.ibb.co/4jVrhZM/image.png" alt="" border="0" width="280" >
+<img src="https://i.ibb.co/pn7Y7ks/image.png" alt="" border="0" width="250" >
+<img src="https://i.ibb.co/4jVrhZM/image.png" alt="" border="0" width="250" >
 </p>
 
 ### Notification
 - Immediate pushed after users select songs.
 
 <p>
-<img src="https://i.ibb.co/gdfdDMF/image.png" alt="" border="0" width="280" >
+<img src="https://i.ibb.co/gdfdDMF/image.png" alt="" border="0" width="250" >
 </p>
 
 
 ### Profile screen
 
 <p>
-<img src="https://i.ibb.co/zsc40Fq/image.png" alt="" border="0" width="280" >
-<img src="https://i.ibb.co/1sK0Qg4/image.png" alt="" border="0" width="280" >
-<img src="https://i.ibb.co/pL9mrK7/image.png" alt="" border="0" width="280" >
+<img src="https://i.ibb.co/zsc40Fq/image.png" alt="" border="0" width="250" >
+<img src="https://i.ibb.co/1sK0Qg4/image.png" alt="" border="0" width="250" >
+<img src="https://i.ibb.co/pL9mrK7/image.png" alt="" border="0" width="250" >
 </p>
 
